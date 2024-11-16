@@ -45,3 +45,6 @@ async def confirm(client, message):
     else:
         await message.reply("错误")
         print("未知错误。")
+
+app.start()
+app.run()
